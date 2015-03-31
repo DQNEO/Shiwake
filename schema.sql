@@ -5,6 +5,10 @@ create table shiwake {
     int kari_id,
     int kashi_id,
     text tekiyo,
-    
+}
 
+create table kamoku {
+    pkey id,
+    varchar(255) name,
+    
 }
