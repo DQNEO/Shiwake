@@ -12,4 +12,10 @@ create table kamoku {
     varchar(255) name,
 };
 
+create table user {
+    pkey id,
+    varchar(255) name,
+    varchar(255) mailaddress,
+}
+
 
